@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/woods-web/static/css/main.cc51f57f.css",
-    "main.js": "/woods-web/static/js/main.92761943.js",
+    "main.css": "/woods-web/static/css/main.1dfc5cee.css",
+    "main.js": "/woods-web/static/js/main.86608e00.js",
     "static/media/header.jpg": "/woods-web/static/media/header.50639642fe202c068389.jpg",
     "static/media/contact.jpg": "/woods-web/static/media/contact.5341b5c29e0930418154.jpg",
     "static/media/building.jpg": "/woods-web/static/media/building.a86d82ac624ded92065f.jpg",
     "index.html": "/woods-web/index.html",
-    "main.cc51f57f.css.map": "/woods-web/static/css/main.cc51f57f.css.map",
-    "main.92761943.js.map": "/woods-web/static/js/main.92761943.js.map"
+    "main.1dfc5cee.css.map": "/woods-web/static/css/main.1dfc5cee.css.map",
+    "main.86608e00.js.map": "/woods-web/static/js/main.86608e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc51f57f.css",
-    "static/js/main.92761943.js"
+    "static/css/main.1dfc5cee.css",
+    "static/js/main.86608e00.js"
   ]
 }
