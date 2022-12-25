@@ -13,11 +13,13 @@ import { Admission } from "./pages/Admission";
 import { Examination } from "./pages/Examination";
 import { Contact } from "./pages/Contact";
 import { Footer } from './component/Footer';
+import { ScrollingNotice } from './component/ScrollingNotice';
 
 function App() {
   return (
       <>
         <Navbar/>
+        <ScrollingNotice/>
         <Container className='mb-4'>
           <Routes>
             <Route path="/" element={<Home/>} />
@@ -27,10 +29,10 @@ function App() {
             {/* <Route path="/exam" element={<Examination/>} /> */}
             <Route path="/contact" element={<Contact/>} />
           </Routes>
-          <Notices/>
+          {/* <Notices/>
           <Gallery/>
           <Examination/>
-          <Contact/>
+          <Contact/> */}
         </Container>
         <Footer/>
       </>

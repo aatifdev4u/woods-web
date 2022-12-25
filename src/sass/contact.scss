@@ -1,0 +1,21 @@
+.contact-wrapper{
+    background-color: #ddd;
+    padding: 30px;
+
+    .title{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .contact-details{
+        border-right: 1px solid black;
+    }
+    .active{
+        color: white;
+        background: #6767d7;;
+        border: none;
+        width: 20%;
+        border-radius: 5px;
+        padding: 3px;
+    }
+}

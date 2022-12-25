@@ -1,0 +1,21 @@
+.notice-wrapper{
+    .notice-item-wrapper{
+        .notice-item-header{
+            .notice-item-header-date{
+                color: #cbb58b;
+                font-size: 13px;
+                font-weight: 700;
+                margin-top: 30px;
+                margin-right: 15px;
+            }
+            .notice-item-header-title{
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+        .notice-item-content{
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+    }
+}
