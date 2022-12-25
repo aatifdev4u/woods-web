@@ -15,14 +15,13 @@ export const Navbar = ()=>{
                     <Nav.Link to="/admission" as={NavLink}>
                         Admission
                     </Nav.Link>
-                    <Nav.Link to="/gallery" as={NavLink}>
-                        Gallery
+                    <Nav.Link to="/team" as={NavLink}>
+                        Our Team
                     </Nav.Link>
-                    <Nav.Link to="/teachers" as={NavLink}>
-                        Our Teachers
-                    </Nav.Link>
-                    <Nav.Link to="/examination" as={NavLink}>
+                    {/* <Nav.Link to="/examination" as={NavLink}>
                         Examination
+                    </Nav.Link> */} <Nav.Link to="/gallery" as={NavLink}>
+                        Gallery
                     </Nav.Link>
                     <Nav.Link to="/contact" as={NavLink}>
                         Contact us

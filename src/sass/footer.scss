@@ -1,0 +1,15 @@
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    .logo{
+        border: 1px solid red;
+    }
+    .location{
+        border: 1px solid red;
+    }
+    .contact{
+        border: 1px solid red;
+    }
+}

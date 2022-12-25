@@ -3,7 +3,7 @@ import './App.scss';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Container, Nav , Carousel } from 'react-bootstrap';
 import { Navbar } from './component/Navbar'
 import { Home } from "./pages/Home";
@@ -22,9 +22,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/notices" element={<Notices/>} />
-            <Route path="/gallery" element={<Gallery/>} />
             <Route path="/admission" element={<Admission/>} />
-            <Route path="/exam" element={<Examination/>} />
+            <Route path="/gallery" element={<Gallery/>} />
+            {/* <Route path="/exam" element={<Examination/>} /> */}
             <Route path="/contact" element={<Contact/>} />
           </Routes>
           <Notices/>
