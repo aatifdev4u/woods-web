@@ -10,7 +10,7 @@ import { Home } from "./pages/Home";
 import { Notices } from "./pages/Notices";
 import { Gallery } from "./pages/Gallery";
 import { Admission } from "./pages/Admission";
-import { Examination } from "./pages/Examination";
+import { Team } from "./pages/Team";
 import { Contact } from "./pages/Contact";
 import { Footer } from './component/Footer';
 import { ScrollingNotice } from './component/ScrollingNotice';
@@ -26,7 +26,7 @@ function App() {
             <Route path="/notices" element={<Notices/>} />
             <Route path="/admission" element={<Admission/>} />
             <Route path="/gallery" element={<Gallery/>} />
-            {/* <Route path="/exam" element={<Examination/>} /> */}
+            <Route path="/team" element={<Team/>} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>
           {/* <Notices/>

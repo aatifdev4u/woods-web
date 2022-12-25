@@ -1,0 +1,11 @@
+.team-wrapper{
+    .teacher-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .teacher-list-item{
+            margin: 5px;
+            width: 18rem;
+        }
+    }
+}

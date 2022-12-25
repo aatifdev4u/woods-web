@@ -24,7 +24,7 @@ export const Navbar = ()=>{
                         Gallery
                     </Nav.Link>
                     <Nav.Link to="/contact" as={NavLink}>
-                        Contact us
+                        Contact
                     </Nav.Link>
                 </Nav>
            </Container>
