@@ -1,18 +1,23 @@
 .footer-wrapper{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: #1c61a5;
     color: white;
     position: fixed;
     width: 100%;
     bottom: 0px;
+    z-index: 9999;
+    font-size: 12px;
     .logo{
-        border: 1px solid red;
+        // border: 1px solid red;
     }
-    .location{
-        border: 1px solid red;
-    }
+    // .location{
+    //     border: 1px solid red;
+    // }
     .contact{
-        border: 1px solid red;
+        // border: 1px solid red;
+        .icon-map{
+            margin: 3px 5px;
+        }
     }
 }

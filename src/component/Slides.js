@@ -16,7 +16,7 @@ export const Slides = (props) => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={building}
+              src={header}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -27,7 +27,7 @@ export const Slides = (props) => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={contact}
+              src={header}
               alt="Second slide"
             />
 

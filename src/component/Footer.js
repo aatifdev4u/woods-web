@@ -1,5 +1,9 @@
 import React from 'react';
-import { Stack } from 'react-bootstrap'
+import { Container, Stack } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser, faEnvelope, faPhone, faLocation } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 /**
 * @author
@@ -8,36 +12,36 @@ import { Stack } from 'react-bootstrap'
 
 export const Footer = (props) => {
   return(
-    <div className='footer-wrapper'>
+    <Container fluid>
+      <br/>
+      <div className='footer-wrapper'>
       <div className='logo'>
-        Logo
-      </div>
-      <div className='location'>
-        Location
+        WoodsAcademy
       </div>
       <div className='contact'>
         <Stack>
           <div>
-            Address: Woods Academy, Seraj Bhawan, Bhatti Road, Rourkela
+          <span className='icon-map'><FontAwesomeIcon icon={faLocation} /></span>
+            Woods Academy, Seraj Bhawan, Bhatti Road, Rourkela
           </div>
           <div>
-            Email: woodsinfo@gmail.com
+          <span className='icon-map'> <FontAwesomeIcon icon={faEnvelope} /></span> woodsinfo@gmail.com
           </div>
           <div>
-            Phone: +91 123456789, +91 123456789
+          <span className='icon-map'><FontAwesomeIcon icon={faPhone} /></span>
+             +91 123456789, +91 123456789
           </div>
           <div>
-            Facebook: sdlfksd
-          </div>
-          <div>
-            Instagram: sdhfsdlhf
-          </div>
-          <div>
-            Youtube: sldkhflsdhf
+            <span className='icon-map'>
+              <FontAwesomeIcon icon={faFacebook} />  
+            </span>
+            <span className='icon-map'>
+              <FontAwesomeIcon icon={faInstagramSquare} />
+            </span>
           </div>
         </Stack>
       </div>
     </div>
+    </Container>
    )
-
  }
