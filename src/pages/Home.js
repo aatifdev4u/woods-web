@@ -7,7 +7,7 @@ import building from "../images/building.jpg";
 import contact from "../images/contact.jpg";
 import header from "../images/header.jpg";
 import { Container } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom'
 /**
 * @author
 * @function 
@@ -51,7 +51,7 @@ export const Home = (props) => {
           <div className="home-item-gallery">
             <h2>Gallery</h2>
             <div>
-              <Image roundedCircle  src={building} />
+              <Link to="/gallery"><Image roundedCircle  src={building} /></Link>
             </div>
           </div>
           <div className="home-item-testimonials">
