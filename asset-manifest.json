@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/woods-web/static/css/main.a13f5180.css",
-    "main.js": "/woods-web/static/js/main.09290120.js",
+    "main.css": "/woods-web/static/css/main.7da18bf4.css",
+    "main.js": "/woods-web/static/js/main.450763a4.js",
     "static/media/header.jpg": "/woods-web/static/media/header.50639642fe202c068389.jpg",
     "static/media/contact.jpg": "/woods-web/static/media/contact.5341b5c29e0930418154.jpg",
     "static/media/building.jpg": "/woods-web/static/media/building.a86d82ac624ded92065f.jpg",
+    "static/media/AdmissionForm.pdf": "/woods-web/static/media/AdmissionForm.7a8601f4dfb3d553f433.pdf",
     "index.html": "/woods-web/index.html",
-    "main.a13f5180.css.map": "/woods-web/static/css/main.a13f5180.css.map",
-    "main.09290120.js.map": "/woods-web/static/js/main.09290120.js.map"
+    "main.7da18bf4.css.map": "/woods-web/static/css/main.7da18bf4.css.map",
+    "main.450763a4.js.map": "/woods-web/static/js/main.450763a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a13f5180.css",
-    "static/js/main.09290120.js"
+    "static/css/main.7da18bf4.css",
+    "static/js/main.450763a4.js"
   ]
 }
