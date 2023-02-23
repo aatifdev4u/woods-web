@@ -44,32 +44,16 @@ export const Gallery = (props) => {
           <div className="content">Seminar</div>
         </div>
         <div className='gallery-wrapper-video-list-item'>
-          <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
+          <YoutubeEmbed embedId="3ZmBnxJWaFc" />
+          <div className="content">Republic Day Celebration</div>
+        </div>
+        <div className='gallery-wrapper-video-list-item'>
+          <YoutubeEmbed embedId="0pd91kwTPjk" />
+          <div className="content">Children Day Celebration</div>
         </div>
         <div className='gallery-wrapper-video-list-item'>
           <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
-        </div>
-        <div className='gallery-wrapper-video-list-item'>
-          <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
-        </div>
-        <div className='gallery-wrapper-video-list-item'>
-          <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
-        </div>
-        <div className='gallery-wrapper-video-list-item'>
-        <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
-        </div>
-        <div className='gallery-wrapper-video-list-item'>
-          <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
-        </div>
-        <div className='gallery-wrapper-video-list-item'>
-          <YoutubeEmbed embedId="7z0HzeRRt0w" />
-          <div className="content">Seminar</div>
+          <div className="content">Kindergarten Section</div>
         </div>
       </div>
     </div>

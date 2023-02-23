@@ -20,7 +20,7 @@ export const  ScrollingNotice= (props) => {
       }
     });
     return(
-        <div key={key}>
+        <div className="scrolling-notice-wrapper" key={key}>
             <animated.div style={scrolling}>Admission Open for academic year 2023</animated.div>
         </div>
     )

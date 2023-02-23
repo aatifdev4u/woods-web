@@ -40,6 +40,7 @@
     }
 
     .home-information-event-wrapper{
+        margin: 0px 10px;
         .home-information-event-item{
             text-align: center;
             background: cornflowerblue;
@@ -48,11 +49,15 @@
             border-radius: 5px;
             margin: 5px;
             padding: 5px 15px;
+           a{
+            text-decoration: none;
+            color: white;
+           }
         }
     }
 
     .home-item-gallery{
-
+        margin: 0px 25px;
         img{
             width: 100px;
             height: 100px;
@@ -60,6 +65,7 @@
     }
 
     .home-item-testimonials{
+        margin: 0px 10px;
        .home-item-testimonials-content{
         height: 200px;
         width: 200px;
@@ -78,4 +84,10 @@
        }
     }
 }
+}
+
+.scrolling-notice-wrapper{
+    color: #060a0e;
+    font-weight: bold;
+    font-style: italic;
 }

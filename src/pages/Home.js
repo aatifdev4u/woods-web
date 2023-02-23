@@ -38,13 +38,13 @@ export const Home = (props) => {
             <h2>Information & Events</h2>
             <div className='home-information-event-wrapper'>
               <div className='home-information-event-item'>
-                NEET 2022 Examination
+                <Link to="/notices"> NEET 2022 Examination</Link>
               </div>
               <div className='home-information-event-item'>
-                NEET 2022 Examination
+                <Link to="/notices"> NEET 2022 Examination</Link>
               </div>
               <div className='home-information-event-item'>
-                NEET 2022 Examination
+                <Link to="/notices"> NEET 2022 Examination</Link>
               </div>
             </div>
           </div>
@@ -59,18 +59,15 @@ export const Home = (props) => {
             <div  className="home-item-testimonials-content">
               <Carousel fade>
                 <Carousel.Item>
-                    <p className='testimonials-content'>Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla
-                     vitae elit libero, a pharetra augue mollis interdum</p>
+                    <p className='testimonials-content'>I am happy my children is nurturing in healthy and modesty environment.</p>
                     <span className='testimonials-user'>Aisha Parween</span>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <p className='testimonials-content'>Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla
-                     vitae elit libero, a pharetra augue mollis interdum</p>
+                  <p className='testimonials-content'>Teachers are cooperating.</p>
                     <span className='testimonials-user'>Mohammad Zoaib</span>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <p className='testimonials-content'>Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla
-                     vitae elit libero, a pharetra augue mollis interdum</p>
+                  <p className='testimonials-content'>Wonderful.....................</p>
                     <span className='testimonials-user'>Sidra Fatima</span>
                 </Carousel.Item>
               </Carousel>
