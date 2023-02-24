@@ -14,14 +14,40 @@ import { Team } from "./pages/Team";
 import { Contact } from "./pages/Contact";
 import { Footer } from './component/Footer';
 import { ScrollingNotice } from './component/ScrollingNotice';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const currentPage = useSelector(state => state.appUtilityData.currentPage);
+  let pageToDisplay = <Home/>;
+
+  switch(currentPage){
+    case 'home':
+      pageToDisplay = <Home/>
+      break;
+    case 'notices':
+      pageToDisplay = <Notices/>
+      break;
+    case 'admission':
+      pageToDisplay = <Admission/>
+      break;
+    case 'gallery':
+      pageToDisplay = <Gallery/>
+      break;
+    case 'team':
+      pageToDisplay = <Team/>
+      break;
+    case 'contact':
+      pageToDisplay = <Contact/>
+      break;
+    default:
+      pageToDisplay = <Home/>
+  }
   return (
       <>
         <NavbarCustom/>
         <ScrollingNotice/>
         <Container className='mb-4'>
-          <Routes>
+          {/* <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route path="/woods-web" element={<Home/>} />
             <Route path="/notices" element={<Notices/>} />
@@ -29,7 +55,8 @@ function App() {
             <Route path="/gallery" element={<Gallery/>} />
             <Route path="/team" element={<Team/>} />
             <Route path="/contact" element={<Contact/>} />
-          </Routes>
+          </Routes> */}
+          {pageToDisplay}
         </Container>
         <Footer/>
       </>

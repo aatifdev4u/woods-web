@@ -8,12 +8,20 @@ import contact from "../images/contact.jpg";
 import header from "../images/header.jpg";
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux';
+import { setCurrentPage } from '../stores/actions/appUtilityActions'
 /**
 * @author
 * @function 
 **/
 
 export const Home = (props) => {
+  const dispatch = useDispatch();
+  const handleSwitchPage = (page, e)=>{
+    e.preventDefault();
+    console.log(page);
+    dispatch(setCurrentPage(page))
+}
   return(
     <>
       <div  className='home-wrapper'>
@@ -37,21 +45,21 @@ export const Home = (props) => {
           <div className='home-information-event'>
             <h2>Information & Events</h2>
             <div className='home-information-event-wrapper'>
-              <div className='home-information-event-item'>
-                <Link to="/notices"> NEET 2022 Examination</Link>
+              <div className='home-information-event-item' onClick={(e)=>handleSwitchPage('notices', e)}>
+                 NEET 2022 Examination
               </div>
-              <div className='home-information-event-item'>
-                <Link to="/notices"> NEET 2022 Examination</Link>
+              <div className='home-information-event-item' onClick={(e)=>handleSwitchPage('notices', e)}>
+                 NEET 2022 Examination
               </div>
-              <div className='home-information-event-item'>
-                <Link to="/notices"> NEET 2022 Examination</Link>
+              <div className='home-information-event-item' onClick={(e)=>handleSwitchPage('notices', e)}>
+                 NEET 2022 Examination
               </div>
             </div>
           </div>
           <div className="home-item-gallery">
-            <h2>Gallery</h2>
-            <div>
-              <Link to="/gallery"><Image roundedCircle  src={building} /></Link>
+            <h2 onClick={(e)=>handleSwitchPage('gallery', e)}>Gallery</h2>
+            <div onClick={(e)=>handleSwitchPage('gallery', e)}>
+              <Image roundedCircle  src={building} />
             </div>
           </div>
           <div className="home-item-testimonials">
