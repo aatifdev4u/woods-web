@@ -46,7 +46,7 @@ export const Contact = (props) => {
                   <input type="text" id="name" name="Name" placeholder='Name' value={name} onChange={(e)=>setName(e.target.value)}/>
                   <input type="email" id="email" name="Email" placeholder='Email'  value={email} onChange={(e)=>setEmail(e.target.value)}/>
                   <input  type="number" name="Phone" id="phone" placeholder='Phone' value={phone} onChange={(e)=>setPhone(e.target.value)}/>
-                  <textarea name="Message" placeholder='Message' row={10} col={10} value={message} onChange={(e)=>setMessage(e.target.value)}>
+                  <textarea name="Message" placeholder='Message/Suggestion' row={10} col={10} value={message} onChange={(e)=>setMessage(e.target.value)}>
                   </textarea>
                   <div style={{'textAlign': 'center'}}>
                     <button type='submit' className='active'>Submit</button>
@@ -58,14 +58,11 @@ export const Contact = (props) => {
             <div className='title'>Location</div>
             <Stack>
               <div>Address</div>
-              <p>Unisco university
-                Albany, NY
-                USA. 11001</p>
+              <p>Woods Academy, Seraj Bhawan, Bhatti Road, Rourkela - 769001, Dist- Sundargarh, Odisha</p>
               <div>EMail</div>
-              <div>info@unisco.edu</div>
-              <div>admin@unisco.edu</div>
+              <div>infowoodsacademy@gmail.com</div>
               <div>phone</div>
-              <div>+91 555 668 986</div>
+              <div><a href="tel:8249469411">+91-9861698249</a></div>
             </Stack>
           </Col>
         </Row>

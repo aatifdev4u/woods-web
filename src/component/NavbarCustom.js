@@ -17,16 +17,16 @@ const NavbarCustom = ()=>{
     return(
         <Navbar  collapseOnSelect  bg="primary" expand="lg" variant='dark' sticky="top" >
         <Container>
-            <Navbar.Brand href="/">Woods Academy</Navbar.Brand>
+            <Navbar.Brand onClick={(e)=>handleSwitchPage('home', e)}>Woods Academy</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="/" onClick={(e)=>handleSwitchPage('home', e)}>Home</Nav.Link>
-                <Nav.Link href="/notices" onClick={(e)=>handleSwitchPage('notices', e)}>Notices</Nav.Link>
-                <Nav.Link href="/gallery" onClick={(e)=>handleSwitchPage('gallery', e)}>Gallery</Nav.Link>
-                <Nav.Link href="/admission" onClick={(e)=>handleSwitchPage('admission', e)}>Admission</Nav.Link>
-                <Nav.Link href="/team" onClick={(e)=>handleSwitchPage('team', e)}>Team</Nav.Link>
-                <Nav.Link href="/contact" onClick={(e)=>handleSwitchPage('contact', e)}>Contact</Nav.Link>
+                <Nav.Link onClick={(e)=>handleSwitchPage('home', e)}>Home</Nav.Link>
+                <Nav.Link  onClick={(e)=>handleSwitchPage('notices', e)}>Notices</Nav.Link>
+                <Nav.Link  onClick={(e)=>handleSwitchPage('gallery', e)}>Gallery</Nav.Link>
+                <Nav.Link  onClick={(e)=>handleSwitchPage('admission', e)}>Admission</Nav.Link>
+                <Nav.Link onClick={(e)=>handleSwitchPage('team', e)}>Team</Nav.Link>
+                <Nav.Link  onClick={(e)=>handleSwitchPage('contact', e)}>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

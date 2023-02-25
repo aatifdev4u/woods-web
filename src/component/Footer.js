@@ -23,15 +23,15 @@ export const Footer = (props) => {
             </div>
             <div>
               <span className='icon-map'> <FontAwesomeIcon icon={faEnvelope} /></span>
-              <a href="mailto:woodsinfo@gmail.com">woodsinfo@gmail.com</a> 
+              <a href="mailto:woodsinfo@gmail.com">infowoodsacademy@gmail.com</a> 
             </div>
             <div>
               <span className='icon-map'><FontAwesomeIcon icon={faPhone} />&nbsp;&nbsp;
-                <a href="tel:8249469411">+91-8249469411</a>
+                <a href="tel:8249469411">+91-9861698249</a>
               </span>
               <br/>
               <span className='icon-map'><FontAwesomeIcon icon={faPhone} />&nbsp;&nbsp;
-                <a href="tel:8556531004">+91-8556531004</a>
+                <a href="tel:8556531004">+91-6370410114</a>
               </span>
             </div>
             <hr/>

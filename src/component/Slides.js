@@ -3,6 +3,8 @@ import { Carousel } from 'react-bootstrap'
 import building from "../images/building.jpg";
 import contact from "../images/contact.jpg";
 import header from "../images/header.jpg";
+import  woodsAdmissionAdv1 from "../images/woodsAdmissionAdv1.jpg";
+import woodsImg1200500 from '../images/woodsAdmission1200500.jpg'
 
 /**
 * @author
@@ -16,7 +18,7 @@ export const Slides = (props) => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={header}
+              src={woodsImg1200500}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -27,7 +29,7 @@ export const Slides = (props) => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={header}
+              src={woodsImg1200500}
               alt="Second slide"
             />
 
@@ -39,7 +41,7 @@ export const Slides = (props) => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={header}
+              src={woodsImg1200500}
               alt="Third slide"
             />
             <Carousel.Caption>
