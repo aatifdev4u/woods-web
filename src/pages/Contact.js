@@ -57,12 +57,9 @@ export const Contact = (props) => {
           <Col className='location-details'>
             <div className='title'>Location</div>
             <Stack>
-              <div>Address</div>
               <p>Woods Academy, Seraj Bhawan, Bhatti Road, Rourkela - 769001, Dist- Sundargarh, Odisha</p>
-              <div>EMail</div>
-              <div>infowoodsacademy@gmail.com</div>
-              <div>phone</div>
-              <div><a href="tel:8249469411">+91-9861698249</a></div>
+              <div><span>Email: </span>infowoodsacademy@gmail.com</div>
+              <div><span>Phone</span><a href="tel:8249469411">+91-9861698249</a></div>
             </Stack>
           </Col>
         </Row>

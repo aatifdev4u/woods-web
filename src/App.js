@@ -14,6 +14,7 @@ import { Team } from "./pages/Team";
 import { Contact } from "./pages/Contact";
 import { Footer } from './component/Footer';
 import { ScrollingNotice } from './component/ScrollingNotice';
+import { Kindergarten } from './pages/Kindergarten';
 import { useSelector } from 'react-redux';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
       break;
     case 'admission':
       pageToDisplay = <Admission/>
+      break;
+    case 'kindergarten':
+      pageToDisplay = <Kindergarten/>
       break;
     case 'gallery':
       pageToDisplay = <Gallery/>

@@ -9,28 +9,50 @@
     bottom: 0px;
     z-index: 9999;
     font-size: 12px;
+    //margin-bottom: 8px;
     .logo{
         text-align: center;
         flex-grow: 1;
         width: 20rem;
-        margin: 20px;
+        margin-top: 10px;
+    }
+
+    .footer-breadcrumb{
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            li{
+                margin: 0px 5px;
+                cursor: pointer;
+            }
+        }
     }
    
     .contact{
         text-align: left;
         flex-grow: 1;
-        margin: 20px;
+        margin-top: 10px;
         a{
             color: white;
             text-decoration: none;
-        }
-        .social-media{
-            text-align: center;
         }
         .icon-map{
             font-size: 1.1em;
             margin: 3px 5px;
 
         }
+    }
+}
+
+.social-media{
+    text-align: center;
+    background-color: #1c61a5;
+    color: white;
+    border-top: 0.2px solid white;
+    .icon-map{
+        font-size: 1.1em;
+        margin: 5px 5px;
+
     }
 }

@@ -28,7 +28,7 @@ export const Home = (props) => {
         <Slides/>
         <div className='mission-wrapper'>
           <div className='mission-content'>
-            <h2>Our Mission</h2>
+            <h2>Our Mission & Vision</h2>
             <ul>
               <li>To provide an environment that caters to the natural fitrah of each child.</li>
               <li>To ensure that every child is given oppurtunities to explore his/her surroundings.</li>
@@ -37,16 +37,49 @@ export const Home = (props) => {
               <li>To develop foundational academic skills</li>
             </ul>
           </div>
-          <div className='img-wrapper'>
+          {/* <div className='img-wrapper'>
             <Image rounded src={building}/>
+          </div> */}
+        </div>
+        <hr/>
+        <div className='founder-wrapper'>
+          <div className="founder-content-wrapper">
+            <div className='img-wrapper'>
+              <Image rounded src={building}/>
+            </div>
+            <div className="founder-msg-content">
+              <h4>Founder Message</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
           </div>
         </div>
+        <hr/>
+        <div className='founder-wrapper'>
+          <div className="founder-content-wrapper">
+            <div className='img-wrapper'>
+              <Image rounded src={building}/>
+            </div>
+            <div className="founder-msg-content">
+              <h4>Principle Message</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr/>
         <div className='home-item-wrapper'>
           <div className='home-information-event'>
             <h2>Information & Events</h2>
             <div className='home-information-event-wrapper'>
-              <div className='home-information-event-item' onClick={(e)=>handleSwitchPage('notices', e)}>
-                 NEET 2022 Examination
+              <div className='home-information-event-item' onClick={(e)=>handleSwitchPage('kindergarten', e)}>
+                 New Kindergaten
               </div>
               <div className='home-information-event-item' onClick={(e)=>handleSwitchPage('notices', e)}>
                  NEET 2022 Examination

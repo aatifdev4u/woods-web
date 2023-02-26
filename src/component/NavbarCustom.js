@@ -24,6 +24,7 @@ const NavbarCustom = ()=>{
                 <Nav.Link onClick={(e)=>handleSwitchPage('home', e)}>Home</Nav.Link>
                 <Nav.Link  onClick={(e)=>handleSwitchPage('notices', e)}>Notices</Nav.Link>
                 <Nav.Link  onClick={(e)=>handleSwitchPage('gallery', e)}>Gallery</Nav.Link>
+                <Nav.Link  onClick={(e)=>handleSwitchPage('kindergarten', e)}>Kindergarten</Nav.Link>
                 <Nav.Link  onClick={(e)=>handleSwitchPage('admission', e)}>Admission</Nav.Link>
                 <Nav.Link onClick={(e)=>handleSwitchPage('team', e)}>Team</Nav.Link>
                 <Nav.Link  onClick={(e)=>handleSwitchPage('contact', e)}>Contact</Nav.Link>

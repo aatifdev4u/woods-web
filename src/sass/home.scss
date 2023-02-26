@@ -8,7 +8,8 @@
     .mission-content{
         h2{
             text-align: center;
-            text-decoration: underline;
+            //text-decoration: underline;
+            font-family: sans-serif;
         }
     
         ul{
@@ -30,6 +31,26 @@
     } 
 }
 
+.founder-wrapper{
+    h2{
+        text-align: left;
+        //text-decoration: underline;
+        font-family: sans-serif;
+    }
+    .founder-content-wrapper{
+        display: flex;
+        justify-content: space-between;
+        
+        .img-wrapper{
+            margin: 10px 100px 10px 0px;
+            img{
+                height: 200px;
+                width: 200px;
+            }
+        } 
+    }
+}
+
 .home-item-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +58,7 @@
 
     h2{
         text-decoration: underline;
+        font-family: sans-serif;
     }
 
     .home-information-event-wrapper{

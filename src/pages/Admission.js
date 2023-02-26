@@ -8,18 +8,13 @@ import admissionForm from '../template/AdmissionForm.pdf';
 
 export const Admission = () => {
   return(
-    <div>
-      {/* This is Admission Page
-      <a href={admissionForm} download="woods_admission_form_2023" target='_blank'>
-        <button className="btn btn-danger">Download Admission Form</button>
-      </a> */}
-      <h2>Admission for Nursery to Class 6</h2>
-      <h2>Woods Academy, School, Rourkela</h2>
+    <div className='admission-wrapper'>
+      <div className='title'>Admission for Nursery to Class 6</div>
       <p>All Applications for admission are to be applied offline only</p>
       <p>Forms will be available at school counter / <a href={admissionForm} download="woods_admission_form_2023" target='_blank'>
         download from here
       </a> </p>
-      <div>
+      <div className='registration-wrapper'>
         <h4>Procedure for registration:</h4>
         <ul>
           <li>1.Read the instructions carefully.</li>

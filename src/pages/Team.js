@@ -9,9 +9,9 @@ export const Team = (props) => {
   return(
     <div className="team-wrapper">
       <div>
-        <Row>
+        <Row className="justify-content-md-center">
             <Col>
-              <Card style={{ width: '18rem' }}>
+              <Card style={{ width: '18rem', left: '33%' }} className="mb-2">
                 <Card.Img variant="top" src="./../images/building.jpg" />
                   <Card.Body>
                     <Card.Title>Founder: Mr Wasim Akhtar</Card.Title>
@@ -24,6 +24,7 @@ export const Team = (props) => {
             </Col>
         </Row>
       </div>
+      <hr/>
         <div>
           <Row>
             <Col>
@@ -52,11 +53,12 @@ export const Team = (props) => {
             </Col>
           </Row>
         </div>
+        <hr/>
         <div>
           <h2>Teachers</h2>
           <div className="teacher-list">
             <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Shazia Parveen</Card.Title>
                     <Card.Text>
@@ -65,7 +67,7 @@ export const Team = (props) => {
                   </Card.Body>
               </Card>
               <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Susmita Pal</Card.Title>
                     <Card.Text>
@@ -74,7 +76,7 @@ export const Team = (props) => {
                   </Card.Body>
               </Card>
               <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Rabia Khatoon</Card.Title>
                     <Card.Text>
@@ -83,7 +85,7 @@ export const Team = (props) => {
                   </Card.Body>
               </Card>
               <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Mr Hafiz Mohammad Aiyazuddin</Card.Title>
                     <Card.Text>
@@ -92,7 +94,7 @@ export const Team = (props) => {
                   </Card.Body>
               </Card>
               <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Saba Parween</Card.Title>
                     <Card.Text>
@@ -101,7 +103,7 @@ export const Team = (props) => {
                   </Card.Body>
               </Card>
               <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Afreen Naaz</Card.Title>
                     <Card.Text>
@@ -110,7 +112,7 @@ export const Team = (props) => {
                   </Card.Body>
               </Card>
               <Card className="teacher-list-item">
-                <Card.Img variant="top" src="./../images/building.jpg" />
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Rusda</Card.Title>
                     <Card.Text>
@@ -118,8 +120,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>MS Afifa</Card.Title>
                     <Card.Text>
@@ -127,8 +129,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Anjali Kumar Sahoo</Card.Title>
                     <Card.Text>
@@ -136,8 +138,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>MS Saba Tarannum</Card.Title>
                     <Card.Text>
@@ -145,8 +147,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Saima Haque</Card.Title>
                     <Card.Text>
@@ -154,8 +156,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Nishad Begum</Card.Title>
                     <Card.Text>
@@ -163,8 +165,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Rafat Shaheen</Card.Title>
                     <Card.Text>
@@ -172,8 +174,8 @@ export const Team = (props) => {
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./../images/building.jpg" />
+              <Card className="teacher-list-item">
+                {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                   <Card.Body>
                     <Card.Title>Ms Kanij Fatima</Card.Title>
                     <Card.Text>
@@ -183,53 +185,51 @@ export const Team = (props) => {
               </Card>
           </div>
         </div>
+        <hr/>
         <div>
           <h2>Co-ordinator</h2>
           <Row>
               <Col>
-                <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="./../images/building.jpg" />
+                <Card className="coordinator-list-item">
+                  {/* <Card.Img variant="top" src="./../images/building.jpg" /> */}
                     <Card.Body>
                       <Card.Title>Haji Mohammad Israil</Card.Title>
                       <Card.Subtitle className="mb-2 text-muted">Qualification:</Card.Subtitle>
                       <Card.Text>
-                        B.Tech in Electronics and Telecommunication, B.ED
+                        B.Com
                       </Card.Text>
                     </Card.Body>
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="./../images/building.jpg" />
+                <Card className="coordinator-list-item">
                     <Card.Body>
                       <Card.Title>Haji Iftequar alam</Card.Title>
                       <Card.Subtitle className="mb-2 text-muted">Qualification:</Card.Subtitle>
                       <Card.Text>
-                        B.com, Charetered Accountant (Intermediate)
+                        B.com, C.A (Intermediate)
                       </Card.Text>
                     </Card.Body>
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="./../images/building.jpg" />
+                <Card className="coordinator-list-item">
                     <Card.Body>
                       <Card.Title>Abu Hanzla (Kashif)</Card.Title>
                       <Card.Subtitle className="mb-2 text-muted">Qualification:</Card.Subtitle>
                       <Card.Text>
-                        B.Tech in Mechanical Engineering,
+                        B.Tech , Software E.r in Accuknox,
                       </Card.Text>
                     </Card.Body>
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="./../images/building.jpg" />
+                <Card className="coordinator-list-item">
                     <Card.Body>
                       <Card.Title>Mohammad Aatif</Card.Title>
                       <Card.Subtitle className="mb-2 text-muted">Qualification:</Card.Subtitle>
                       <Card.Text>
-                        B.Tech in Electronics and Telecommunication, Technical Lead in Wipro digital
+                        B.Tech , Technical Lead in Wipro digital
                       </Card.Text>
                     </Card.Body>
                 </Card>
